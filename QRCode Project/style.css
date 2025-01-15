@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgba(238, 207, 70, 0.81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.qr-code{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+h2{
+    margin-bottom: 20px;
+}
+#qr-input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-size: 20px;
+    outline-color: rgba(54, 219, 21, 0.61);
+}
+
+#qr-button{
+    padding: 10px 20px;
+    background-color: rgba(238, 207, 70, 0.81);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+
+#qr-button:hover{
+    background-color: rgba(54, 219, 21, 0.61);
+    transition: 0.6s;
+}
+#qr-img{
+    margin-top: 20px;
+}
