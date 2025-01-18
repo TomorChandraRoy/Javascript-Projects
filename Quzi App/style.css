@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color:rgba(201, 243, 47, 0.5);
+    background-color:rgba(245, 190, 117, 0.5);
     display:flex;
     justify-content: center;
     align-items:center;
@@ -15,13 +15,17 @@ body{
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     width: 500px;
+    position:relative;
 }
 #quzi-questions{
     font-size:1.5rem
     padding:20px;
     text-align:center;
+}
+.option{
+    margin-bottom:50px;
 }
 ul {
     list-style:none;
@@ -32,4 +36,20 @@ li {
     font-size:1rem;
     margin-bottom:15px;
     padding:5px;
+}
+#submit{
+    background-color:goldenrod;
+    color:white;
+    border:none;
+    padding:5px ;
+    cursor: pointer;
+    font-size: 20px;
+    width:100%;
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+#submit:hover{
+    background-color:#F39C12;
+    cursor:pointer;
 }
